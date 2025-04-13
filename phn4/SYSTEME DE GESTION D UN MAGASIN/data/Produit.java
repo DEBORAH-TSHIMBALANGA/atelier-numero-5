@@ -2,7 +2,7 @@ package data;
 
 import java.io.Serializable;
 
-public  class Produit implements Serializable {
+public abstract class Produit implements Serializable {
     private static long serialiversionUID=1L;
     private int idProduit;
     private String nom;
